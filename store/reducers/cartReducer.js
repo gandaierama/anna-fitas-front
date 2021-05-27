@@ -20,7 +20,7 @@ const initState = {
             id: 1,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 190,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover1.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
@@ -28,7 +28,7 @@ const initState = {
             id: 2,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 120,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover2.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
@@ -36,7 +36,7 @@ const initState = {
             id: 3,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 160,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover3.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
@@ -44,7 +44,7 @@ const initState = {
             id: 4,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 130,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover4.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
@@ -52,7 +52,7 @@ const initState = {
             id: 5,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 90,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover5.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
@@ -60,7 +60,7 @@ const initState = {
             id: 6,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 180,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover6.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
@@ -68,7 +68,7 @@ const initState = {
             id: 7,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 330,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover7.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
@@ -76,7 +76,7 @@ const initState = {
             id: 8,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 140,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover8.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
@@ -92,7 +92,7 @@ const initState = {
             id: 10,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 650,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover2.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
@@ -100,7 +100,7 @@ const initState = {
             id: 11,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 230,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover3.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
@@ -108,7 +108,7 @@ const initState = {
             id: 12,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 670,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover4.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
@@ -116,7 +116,7 @@ const initState = {
             id: 13,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 120,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover5.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
@@ -124,7 +124,7 @@ const initState = {
             id: 14,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 540,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover6.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
@@ -132,7 +132,7 @@ const initState = {
             id: 15,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 230,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover7.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
@@ -140,7 +140,7 @@ const initState = {
             id: 16,
             title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 530,
-            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
+            image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover8.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         }
