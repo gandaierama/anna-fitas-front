@@ -8,7 +8,7 @@ class OrderSummary extends Component {
                 <table className="table table-bordered">
                     <thead>
                         <tr>
-                            <th scope="col">Product Name</th>
+                            <th scope="col">Nome do produto</th>
                             <th scope="col">Total</th>
                         </tr>
                     </thead>
@@ -28,7 +28,7 @@ class OrderSummary extends Component {
 
                         <tr>
                             <td className="order-subtotal">
-                                <span>Cart Subtotal</span>
+                                <span>Subtotal</span>
                             </td>
 
                             <td className="order-subtotal-price">
@@ -38,7 +38,7 @@ class OrderSummary extends Component {
 
                         <tr>
                             <td className="order-shipping">
-                                <span>Shipping</span>
+                                <span>Frete</span>
                             </td>
 
                             <td className="shipping-price">
@@ -49,7 +49,7 @@ class OrderSummary extends Component {
                         
                         <tr>
                             <td className="total-price">
-                                <span>Order Total</span>
+                                <span>Total do pedido</span>
                             </td>
 
                             <td className="product-subtotal">

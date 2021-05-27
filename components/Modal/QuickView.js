@@ -70,52 +70,22 @@ class QuickView extends Component {
 
                             <div className="col-lg-6 col-md-6">
                                 <div className="product-content">
-                                    <h3><a href="#">Belted chino trousers polo</a></h3>
+                                    <h3><a href="#">Produto teste</a></h3>
 
                                     <div className="price">
                                         <span className="new-price">${this.props.price}</span>
                                     </div>
 
-                                    <div className="product-review">
-                                        <div className="rating">
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <a href="#" className="rating-count">3 reviews</a>
-                                    </div>
+                        
 
                                     <ul className="product-info">
-                                        <li><span>Vendor:</span> <a href="#">Lereve</a></li>
-                                        <li><span>Availability:</span> <a href="#">In stock (7 items)</a></li>
-                                        <li><span>Product Type:</span> <a href="#">T-Shirt</a></li>
+                                        <li><span>Fabricante:</span> <a href="#">Teste</a></li>
+                             
+                                        <li><span>Cagtegoria:</span> <a href="#">Categoria teste</a></li>
                                     </ul>
 
-                                    <div className="product-color-switch">
-                                        <h4>Color:</h4>
+                        
 
-                                        <ul>
-                                            <li><a href="#" title="Black" className="color-black"></a></li>
-                                            <li><a href="#" title="White" className="color-white"></a></li>
-                                            <li className="active"><a href="#" title="Green" className="color-green"></a></li>
-                                            <li><a href="#" title="Yellow Green" className="color-yellowgreen"></a></li>
-                                            <li><a href="#" title="Teal" className="color-teal"></a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div className="product-size-wrapper">
-                                        <h4>Size:</h4>
-
-                                        <ul>
-                                            <li><a href="#">XS</a></li>
-                                            <li className="active"><a href="#">S</a></li>
-                                            <li><a href="#">M</a></li>
-                                            <li><a href="#">XL</a></li>
-                                            <li><a href="#">XXL</a></li>
-                                        </ul>
-                                    </div>
 
                                     <div className="product-add-to-cart">
                                         <div className="input-counter">
@@ -145,11 +115,11 @@ class QuickView extends Component {
                                             className="btn btn-primary"
                                             onClick={this.handleAddToCartFromView}
                                         >
-                                            <i className="fas fa-cart-plus"></i> Add to Cart
+                                            <i className="fas fa-cart-plus"></i> Adicionar ao carrinho
                                         </button>
                                     </div>
 
-                                    <a href="#" className="view-full-info">View full info</a>
+                                    <a href="#" className="view-full-info">Saiba mais</a>
                                 </div>
                             </div>
                         </div>

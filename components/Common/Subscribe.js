@@ -8,8 +8,8 @@ class Subscribe extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="newsletter-content">
-                                <h3>Subscribe to our newsletter</h3>
-                                <p>A short sentence describing what someone will receive by subscribing</p>
+                                <h3>Inscreva-se em nossa newsletter</h3>
+                                <p>Digite seu e-mail para se inscrever</p>
                             </div>
                         </div>
 
@@ -18,12 +18,12 @@ class Subscribe extends Component {
                                 <input 
                                     type="email" 
                                     className="form-control" 
-                                    placeholder="Enter your email address" 
+                                    placeholder="Digite seu e-mail" 
                                     name="EMAIL" 
                                     required={true} 
                                     autoComplete="off" 
                                 />
-                                <button type="submit">Subscribe</button>
+                                <button type="submit">Increver</button>
                                 <div id="validator-newsletter" className="form-result"></div>
                             </form>
                         </div>

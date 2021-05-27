@@ -30,11 +30,11 @@ class AddsModal extends Component {
         return (
             <div className={`bts-popup ${open ? 'is-visible' : ''}`} role="alert">
                 <div className="bts-popup-container">
-                    <h3>Free Shipping</h3>
-                    <p>Worldwide free shipping for all members. To become a member subscribe for our <strong>free offers / discount newsletter.</strong></p>
+                    <h3>Conheça nossas promoções</h3>
+                    <p>Cadastre seu e-mail e receba novidade do site. <b>Anna Fitas</b> o melhor site para quem busca qualidade</p>
 
                     <form>
-                        <input type="email" className="form-control" placeholder="mail@name.com" name="EMAIL" required={true} />
+                        <input type="email" className="form-control" placeholder="email@dominio.com" name="EMAIL" required={true} />
                         <button type="submit"><i className="far fa-paper-plane"></i></button>
                     </form>
 

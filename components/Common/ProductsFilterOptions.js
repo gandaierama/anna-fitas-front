@@ -103,14 +103,8 @@ class ProductsFilterOptions extends Component {
 
                         <div className="products-ordering-list">
                             <select>
-                                <option value="1">Featured</option>
-                                <option value="2">Best Selling</option>
-                                <option value="3">Price Ascending</option>
-                                <option value="4">Price Descending</option>
-                                <option value="5">Date Ascending</option>
-                                <option value="6">Date Descending</option>
-                                <option value="7">Name Ascending</option>
-                                <option value="8">Name Descending</option>
+                                <option value="7">Ordem crescente</option>
+                                <option value="8">Ordem decrescente</option>
                             </select>
                         </div>
                     </div>

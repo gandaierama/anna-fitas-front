@@ -11,7 +11,7 @@ class Facility extends Component {
                                 <div className="icon">
                                     <i className="fas fa-plane"></i>
                                 </div>
-                                <h3>Free Shipping World Wide</h3>
+                                <h3>Faci;idade de compra</h3>
                             </div>
                         </div>
 
@@ -20,7 +20,7 @@ class Facility extends Component {
                                 <div className="icon">
                                     <i className="fas fa-money-check-alt"></i>
                                 </div>
-                                <h3>100% money back guarantee</h3>
+                                <h3>Site seguro</h3>
                             </div> 
                         </div>
 
@@ -29,7 +29,7 @@ class Facility extends Component {
                                 <div className="icon">
                                     <i className="far fa-credit-card"></i>
                                 </div>
-                                <h3>Many payment gatways</h3>
+                                <h3>Muitas formas de pagamento</h3>
                             </div>
                         </div>
 
@@ -38,7 +38,7 @@ class Facility extends Component {
                                 <div className="icon">
                                     <i className="fas fa-headset"></i>
                                 </div>
-                                <h3>24/7 online support</h3>
+                                <h3>Suporte online 24 horas</h3>
                             </div>
                         </div>
                     </div>

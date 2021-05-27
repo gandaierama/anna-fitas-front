@@ -15,33 +15,33 @@ class Index extends Component {
                     <div className="container">
                         <div className="signup-content">
                             <div className="section-title">
-                                <h2><span className="dot"></span> Create an Account</h2>
+                                <h2><span className="dot"></span> Crie uma conta</h2>
                             </div>
 
                             <form className="signup-form">
                                 <div className="form-group">
-                                    <label>First Name</label>
+                                    <label>Nome</label>
                                     <input type="text" className="form-control" placeholder="Enter your name" id="fname" name="fname" />
                                 </div>
 
                                 <div className="form-group">
-                                    <label>Last Name</label>
+                                    <label>Sobrenome</label>
                                     <input type="text" className="form-control" placeholder="Enter your name" id="lname" name="lname" />
                                 </div>
 
                                 <div className="form-group">
-                                    <label>Email</label>
+                                    <label>E-mail</label>
                                     <input type="email" className="form-control" placeholder="Enter your name" id="name" name="name" />
                                 </div>
 
                                 <div className="form-group">
-                                    <label>Password</label>
+                                    <label>Senha</label>
                                     <input type="password" className="form-control" placeholder="Enter your password" id="password" name="password" />
                                 </div>
 
-                                <button type="submit" className="btn btn-primary">Signup</button>
+                                <button type="submit" className="btn btn-primary">Crie uma conta</button>
                                 <Link href="/">
-                                    <a className="return-store">or Return to Store</a>
+                                    <a className="return-store">ou volte para loja</a>
                                 </Link>
                             </form>
                         </div>

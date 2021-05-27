@@ -53,7 +53,7 @@ class CartContent extends Component {
                                         <div className="col-lg-7 col-md-7">
                                             <div className="continue-shopping-box">
                                                 <Link href="/">
-                                                    <a className="btn btn-light">Continue Shopping</a>
+                                                    <a className="btn btn-light">Continue Comprando</a>
                                                 </Link>
                                             </div>
                                         </div>
@@ -65,22 +65,22 @@ class CartContent extends Component {
                                                 ref="shipping" 
                                                 onChange= {this.handleChecked} 
                                             />
-                                            <span>Shipping(+6$)</span>
+                                            <span>Frete </span>
                                         </label>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="cart-totals">
-                                    <h3>Cart Totals</h3>
+                                    <h3>Total</h3>
 
                                     <ul>
                                         <li>Subtotal <span>${this.props.total}</span></li>
-                                        <li>Shipping <span>${this.props.shipping}</span></li>
+                                        <li>Frete <span>${this.props.shipping}</span></li>
                                         <li>Total <span><b>${this.props.total + this.props.shipping}</b></span></li>
                                     </ul>
                                     <Link href="/checkout">
-                                        <a className="btn btn-light">Proceed to Checkout</a>
+                                        <a className="btn btn-light">Finalizar compra</a>
                                     </Link>
                                 </div>
                             </form>

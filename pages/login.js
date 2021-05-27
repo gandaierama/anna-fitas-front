@@ -17,7 +17,7 @@ class Index extends Component {
                             <div className="col-lg-6 col-md-12">
                                 <div className="login-content">
                                     <div className="section-title">
-                                        <h2><span className="dot"></span> Login</h2>
+                                        <h2><span className="dot"></span> Entrar</h2>
                                     </div>
 
                                     <form className="login-form">
@@ -27,14 +27,14 @@ class Index extends Component {
                                         </div>
 
                                         <div className="form-group">
-                                            <label>Password</label>
+                                            <label>Senha</label>
                                             <input type="password" className="form-control" placeholder="Enter your password" id="password" name="password" />
                                         </div>
 
-                                        <button type="submit" className="btn btn-primary">Login</button>
+                                        <button type="submit" className="btn btn-primary">Entrar</button>
                                         
                                         <Link href="#">
-                                            <a className="forgot-password">Lost your password?</a>
+                                            <a className="forgot-password">Esqueceu a senha?</a>
                                         </Link>
                                     </form>
                                 </div>
@@ -43,13 +43,13 @@ class Index extends Component {
                             <div className="col-lg-6 col-md-12">
                                 <div className="new-customer-content">
                                     <div className="section-title">
-                                        <h2><span className="dot"></span> New Customer</h2>
+                                        <h2><span className="dot"></span> Novo cadastro</h2>
                                     </div>
 
-                                    <span>Create a Account</span>
-                                    <p>Sign up for a free account at our store. Registration is quick and easy. It allows you to be able to order from our shop. To start shopping click register.</p>
+                                    <span>Crie uma conta</span>
+                                    <p>Cadastre-se para uma conta gratuita em nossa loja. O registro é rápido e fácil. Ele permite que você faça pedidos em nossa loja. Para começar a comprar, clique em registrar.</p>
                                     <Link href="/signup">
-                                        <a className="btn btn-light">Create A Account</a>
+                                        <a className="btn btn-light">Crie uma conta</a>
                                     </Link>
                                 </div>
                             </div>

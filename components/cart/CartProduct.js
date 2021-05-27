@@ -47,9 +47,9 @@ class CartProduct extends Component {
                                 <a>{data.title}</a>
                             </Link>
                             <ul>
-                                <li>Color: <strong>Light Blue</strong></li>
-                                <li>Size: <strong>XL</strong></li>
-                                <li>Material: <strong>Cotton</strong></li>
+                                <li>SKU: <strong>0000</strong></li>
+                                <li>Peso: <strong>300 gr.</strong></li>
+                                <li>Fabricante: <strong>Teste</strong></li>
                             </ul>
                         </td>
 
@@ -100,7 +100,7 @@ class CartProduct extends Component {
         ): (
             <tr>
                 <td className="product-thumbnail" colspan="5">
-                    <p>Empty.</p>
+                    <p>Vazio.</p>
                 </td>
             </tr>
         );
@@ -111,10 +111,10 @@ class CartProduct extends Component {
                 <table className="table table-bordered">
                     <thead>
                         <tr>
-                            <th scope="col">Product</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Unit Price</th>
-                            <th scope="col">Quantity</th>
+                            <th scope="col">Produtos</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Valor unitário</th>
+                            <th scope="col">Quantidade</th>
                             <th scope="col">Total</th>
                         </tr>
                     </thead>

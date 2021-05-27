@@ -34,7 +34,7 @@ class Cart extends Component {
                         </button>
 
                         <div className="modal-body">
-                            <h3>My Cart ({products.length})</h3>
+                            <h3>Meu carrinho ({products.length})</h3>
 
                             <div className="product-cart-content">
 
@@ -47,10 +47,10 @@ class Cart extends Component {
                                         <div className="product-content">
                                             <h3>
                                                 <Link href="#">
-                                                    <a>Belted chino trousers polo</a>
+                                                    <a>Produto 1</a>
                                                 </Link>
                                             </h3>
-                                            <span>Blue / XS</span>
+                                            <span>Azul</span>
                                             <div className="product-price">
                                                 <span>{product.quantity}</span>
                                                 <span>x</span>
@@ -70,10 +70,10 @@ class Cart extends Component {
 
                             <div className="product-cart-btn">
                                 <Link href="/checkout">
-                                    <a className="btn btn-primary">Proceed to Checkout</a>
+                                    <a className="btn btn-primary">Finalizar compra</a>
                                 </Link>
                                 <Link href="/cart">
-                                    <a className="btn btn-light">View Shopping Cart</a>
+                                    <a className="btn btn-light">Ver carrinho</a>
                                 </Link>
                             </div>
                         </div>
