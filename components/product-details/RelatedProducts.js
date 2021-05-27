@@ -90,7 +90,7 @@ class RelatedProducts extends Component {
                 <div class="related-products-area">
                     <div class="container">
                         <div class="section-title">
-                            <h2><span class="dot"></span> Related Products</h2>
+                            <h2><span class="dot"></span> Produtos relacionados</h2>
                         </div>
 
                         <div class="row">
@@ -146,12 +146,12 @@ class RelatedProducts extends Component {
                                             <div className="product-content">
                                                 <h3>
                                                     <Link href="#">
-                                                        <a>Belted chino trousers polo</a>
+                                                        <a>Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas</a>
                                                     </Link>
                                                 </h3>
 
                                                 <div className="product-price">
-                                                    <span className="new-price">$191.00</span>
+                                                    <span className="new-price">R$ 191.00</span>
                                                 </div>
 
                                                 <div className="rating">
@@ -168,7 +168,7 @@ class RelatedProducts extends Component {
                                                             e.preventDefault(); this.handleAddToCart(data.id)
                                                         }}
                                                     >
-                                                        Add to Cart
+                                                        Add carrinho
                                                     </a>
                                                 </Link>
                                             </div>

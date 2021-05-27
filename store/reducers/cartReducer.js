@@ -18,71 +18,71 @@ const initState = {
     products: [
         {
             id: 1,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 190,
-            image: require("../../images/img1.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover1.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
         {
             id: 2,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 120,
-            image: require("../../images/img2.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover2.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
         {
             id: 3,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 160,
-            image: require("../../images/img3.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover3.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
         {
             id: 4,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 130,
-            image: require("../../images/img4.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover4.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
         {
             id: 5,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 90,
-            image: require("../../images/img5.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover5.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
         {
             id: 6,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 180,
-            image: require("../../images/img6.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover6.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
         {
             id: 7,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 330,
-            image: require("../../images/img7.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover7.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
         {
             id: 8,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 140,
-            image: require("../../images/img8.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover8.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
         {
             id: 9,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 430,
             image: require("../../images/img1.jpg"),
             imageHover: require("../../images/img-hover1.jpg"),
@@ -90,57 +90,57 @@ const initState = {
         },
         {
             id: 10,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 650,
-            image: require("../../images/img2.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover2.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
         {
             id: 11,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 230,
-            image: require("../../images/img3.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover3.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
         {
             id: 12,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 670,
-            image: require("../../images/img4.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover4.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
         {
             id: 13,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 120,
-            image: require("../../images/img5.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover5.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
         {
             id: 14,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 540,
-            image: require("../../images/img6.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover6.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
         {
             id: 15,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 230,
-            image: require("../../images/img7.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover7.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
         {
             id: 16,
-            title: "Belted chino trousers polo",
+            title: "Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas",
             price: 530,
-            image: require("../../images/img8.jpg"),
+            image: require("https://www.annafitas.com.br/admin/images/upload/fotos/19a1d8354b.jpg"),
             imageHover: require("../../images/img-hover8.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         }

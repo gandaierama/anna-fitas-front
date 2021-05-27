@@ -89,7 +89,7 @@ class ProductsCard extends Component {
                                 <h3><a href="#">{data.title}</a></h3>
 
                                 <div className="product-price">
-                                    <span className="new-price">${data.price}</span>
+                                    <span className="new-price">R$ {data.price}</span>
                                 </div>
 
 

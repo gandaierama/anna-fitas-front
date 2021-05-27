@@ -19,7 +19,7 @@ class ProductContent extends Component {
     handleAddToCartFromView = () => {
         this.props.addQuantityWithNumber(8, this.state.qty); 
 
-        toast.success('Added to the cart', {
+        toast.success('Adicionar ao carrinho', {
             position: "bottom-left",
             autoClose: 5000,
             hideProgressBar: false,
@@ -76,24 +76,13 @@ class ProductContent extends Component {
                 <div className="col-lg-6 col-md-6">
                     <ToastContainer />
                     <div className="product-details-content">
-                        <h3>Belted chino trousers polo</h3>
+                        <h3>Redondo Entremeio Branco com Letras Coloridas de 7mm Pacote de 50 gramas</h3>
 
                         <div className="price">
-                            <span className="new-price">$191.00</span>
+                            <span className="new-price">R$ 191.00</span>
                         </div>
 
-                        <div className="product-review">
-                            <div className="rating">
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star-half-alt"></i>
-                            </div>
-                            <Link href="#">
-                                <a className="rating-count">3 reviews</a>
-                            </Link>
-                        </div>
+                
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
 
@@ -103,41 +92,11 @@ class ProductContent extends Component {
                             <li><span>Product Type:</span> <a href="#">T-Shirt</a></li>
                         </ul>
 
-                        <div className="product-color-switch">
-                            <h4>Color:</h4>
 
-                            <ul>
-                                <li><a href="#" title="Black" className="color-black"></a></li>
-                                <li><a href="#" title="White" className="color-white"></a></li>
-                                <li className="active"><a href="#" title="Green" className="color-green"></a></li>
-                                <li><a href="#" title="Yellow Green" className="color-yellowgreen"></a></li>
-                                <li><a href="#" title="Teal" className="color-teal"></a></li>
-                            </ul>
-                        </div>
-
-                        <div className="product-size-wrapper">
-                            <h4>Size:</h4>
-
-                            <ul>
-                                <li><a href="#">XS</a></li>
-                                <li className="active"><a href="#">S</a></li>
-                                <li><a href="#">M</a></li>
-                                <li><a href="#">XL</a></li>
-                                <li><a href="#">XXL</a></li>
-                            </ul>
-                        </div>
+      
 
                         <div className="product-info-btn">
-                            <Link href="#">
-                                <a
-                                    onClick={e => {
-                                        e.preventDefault(); 
-                                        this.openSizeGuide();
-                                    }}
-                                >
-                                    <i className="fas fa-crop"></i> Size guide
-                                </a>
-                            </Link>
+              
                             <Link href="#">
                                 <a
                                     onClick={e => {
@@ -145,7 +104,7 @@ class ProductContent extends Component {
                                         this.openShipModal();
                                     }}
                                 >
-                                    <i className="fas fa-truck"></i> Shipping
+                                    <i className="fas fa-truck"></i> frete
                                 </a>
                             </Link>
                             <a href="#"><i className="far fa-envelope"></i> Ask about this product</a>
@@ -179,14 +138,10 @@ class ProductContent extends Component {
                                 className="btn btn-primary"
                                 onClick={this.handleAddToCartFromView}
                             >
-                                <i className="fas fa-cart-plus"></i> Add to Cart
+                                <i className="fas fa-cart-plus"></i> Adicionar ao carrinho
                             </button>
                         </div>
 
-                        <div className="wishlist-compare-btn">
-                            <a href="#" className="btn btn-light"><i className="far fa-heart"></i> Add to Wishlist</a>
-                            <a href="#" className="btn btn-light"><i className="fas fa-balance-scale"></i> Add to Compare</a>
-                        </div>
 
                         <div className="buy-checkbox-btn">
                             <div className="item">
@@ -202,12 +157,12 @@ class ProductContent extends Component {
                             </div>
 
                             <div className="item">
-                                <a href="#" className="btn btn-primary">Buy it now!</a>
+                                <a href="#" className="btn btn-primary">Compre agora!</a>
                             </div>
                         </div>
 
                         <div className="custom-payment-options">
-                            <span>Guaranteed safe checkout:</span>
+                            <span>Checkout seguro:</span>
 
                             <div className="payment-methods">
                                 <a href="#">

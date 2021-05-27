@@ -80,13 +80,7 @@ class ProductsCard extends Component {
                                             </a>
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a data-tip="Add to Compare" data-place="left">
-                                                <i className="fas fa-sync"></i>
-                                            </a>
-                                        </Link>
-                                    </li>
+                                    
                                 </ul>
                             </div>
 
@@ -97,13 +91,7 @@ class ProductsCard extends Component {
                                     <span className="new-price">${data.price}</span>
                                 </div>
 
-                                <div className="rating">
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="far fa-star"></i>
-                                </div>
+                      
 
                                 <Link href="#">
                                     <a 
