@@ -23,7 +23,7 @@ class Index extends Component {
                                     <p>Have a question? You may find an answer in our FAQs. But you can also contact us.</p>
 
                                     <ul className="contact-list">
-                                        <li><i className="fas fa-map-marker-alt"></i> Location: 2750 Quadra Street Victoria, Canada</li>
+                                        <li>Anna Fitas Comercio de Pecas para Artesanatos. </li>
                                         <li><i className="fas fa-phone"></i> Ligue: <a href="#">(11) 9 5030-8224</a></li>
                                         <li><i className="far fa-envelope"></i> E-mail: <a href="#">comercial@annafitas.com.br </a></li>
                                         <li><i className="fas fa-business"></i> CNPJ: 30.036.357/0001-90</li>

@@ -89,7 +89,7 @@ class TrendingProducts extends Component {
                 <ToastContainer transition={Slide} />
                 <div className="container">
                     <div className="section-title without-bg">
-                        <h2><span className="dot"></span> Trending Products</h2>
+                        <h2><span className="dot"></span> Produtos em alta</h2>
                     </div>
 
                     <div className="row">
@@ -132,13 +132,7 @@ class TrendingProducts extends Component {
                                                     </a>
                                                 </Link>
                                             </li>
-                                            <li>
-                                                <Link href="#">
-                                                    <a data-tip="Add to Compare" data-place="left">
-                                                        <i className="fas fa-sync"></i>
-                                                    </a>
-                                                </Link>
-                                            </li>
+                                          
                                         </ul>
                                     </div>
 
@@ -150,16 +144,9 @@ class TrendingProducts extends Component {
                                         </h3>
 
                                         <div className="product-price">
-                                            <span className="new-price">${data.price}</span>
+                                            <span className="new-price">R$ {data.price}</span>
                                         </div>
 
-                                        <div className="rating">
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="far fa-star"></i>
-                                        </div>
                                         <Link href="#">
                                             <a 
                                                 className="btn btn-light"
@@ -167,7 +154,7 @@ class TrendingProducts extends Component {
                                                     e.preventDefault(); this.handleAddToCart(data.id)
                                                 }}
                                             >
-                                                Add to Cart
+                                                Add carrinho
                                             </a>
                                         </Link>
                                     </div>

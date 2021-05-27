@@ -88,7 +88,7 @@ class BestSeller extends Component {
                 <ToastContainer transition={Slide} />
                 <div className="container">
                     <div className="section-title without-bg">
-                        <h2><span className="dot"></span> Best Sellers</h2>
+                        <h2><span className="dot"></span> Mais vendidos</h2>
                     </div>
 
                     <div className="row">
@@ -166,7 +166,7 @@ class BestSeller extends Component {
                                                     e.preventDefault(); this.handleAddToCart(data.id)
                                                 }}
                                             >
-                                                Add to Cart
+                                                Add carrinho
                                             </a>
                                         </Link>
                                     </div>

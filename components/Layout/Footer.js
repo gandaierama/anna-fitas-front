@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+    import React, { Component } from 'react';
 import Link from "next/link";
 
 class Footer extends Component {
@@ -17,45 +17,43 @@ class Footer extends Component {
                                     </Link>
                                 </div>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                <p>A Anna Fitas Loja online de Materiais para artesanatos foi fundada em 2017, na cidade de São Paulo, bairro de Itaquera, sua principal missão é levar o que há de melhor em moda artesanal a preços justos. Atualmente contamos com 4 funcionários e nossos principais clientes são as (os) artesãs de todo Brasil fazendo belíssimas artes e sempre inovando o mercado da moda. Desde 2017 passamos a vender Materiais online.</p>
                             </div>
                         </div>
 
                         <div className="col-lg-3 col-md-6">
                             <div className="single-footer-widget">
-                                <h3>Quick Links</h3>
+                                <h3>Links</h3>
 
                                 <ul className="quick-links">
-                                    <li><a href="#">About Us</a></li>
                                     <li><a href="#">FAQ's</a></li>
-                                    <li><a href="#">Customer Services</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Promoçoes</a></li>
+                                    <li><a href="#">Contato</a></li>
                                 </ul>
                             </div>
                         </div>
 
                         <div className="col-lg-3 col-md-6">
                             <div className="single-footer-widget">
-                                <h3>Information</h3>
+                                <h3>Informações</h3>
 
                                 <ul className="information-links">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                    <li><a href="#">Sizing Guide</a></li>
-                                    <li><a href="#">Customer Services</a></li>
+                                    <li><a href="#">Sobre n[os</a></li>
+                                    <li><a href="#">Contato</a></li>
+                           
                                 </ul>
                             </div>
                         </div>
 
                         <div className="col-lg-3 col-md-6">
                             <div className="single-footer-widget">
-                                <h3>Contact Us</h3>
+                                <h3>Anna Fitas</h3>
 
                                 <ul className="footer-contact-info">
-                                    <li><i className="fas fa-map-marker-alt"></i> Location: 2750 Quadra Street Victoria, Canada</li>
-                                    <li><i className="fas fa-phone"></i> Call Us: <a href="#">(+123) 456-7898</a></li>
-                                    <li><i className="far fa-envelope"></i> Email Us: <a href="#">support@comero.com</a></li>
-                                    <li><i className="fas fa-fax"></i> Fax: <a href="#">+123456</a></li>
+                                    <li>Anna Fitas Comercio de Pecas para Artesanatos. </li>
+                                        <li><i className="fas fa-phone"></i> Ligue: <a href="#">(11) 9 5030-8224</a></li>
+                                        <li><i className="far fa-envelope"></i> E-mail: <a href="#">comercial@annafitas.com.br </a></li>
+                                        <li><i className="fas fa-business"></i> CNPJ: 30.036.357/0001-90</li>
                                 </ul>
                             </div>
                         </div>
@@ -66,7 +64,7 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6">
-                                <p>Copyrite @ 2019 Novine. All Rights Reserved</p>
+                                <p>Copyrite @ 2019 Anna Fitas. All Rights Reserved</p>
                             </div>
 
                             <div className="col-lg-6 col-md-6">

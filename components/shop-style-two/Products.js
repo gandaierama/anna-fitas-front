@@ -117,7 +117,7 @@ class Products extends Component {
                                         className="current"
                                     >
                                         <a href="#">
-                                            <span className="dot"></span> Latest Products
+                                            <span className="dot"></span> Novidades
                                         </a>
                                     </li>
                                     
@@ -126,7 +126,7 @@ class Products extends Component {
                                         className="current"
                                     >
                                         <a href="#">
-                                            <span className="dot"></span> Special Products
+                                            <span className="dot"></span> Promoçöes
                                         </a>
                                     </li>
                                     
@@ -135,7 +135,7 @@ class Products extends Component {
                                         className="current"
                                     >
                                         <a href="#">
-                                            <span className="dot"></span> Featured Products
+                                            <span className="dot"></span> Mais visualizados
                                         </a>
                                     </li>
                                 </ul>
@@ -182,13 +182,7 @@ class Products extends Component {
                                                                         </a>
                                                                     </Link>
                                                                 </li>
-                                                                <li>
-                                                                    <Link href="#">
-                                                                        <a data-tip="Add to Compare" data-place="left">
-                                                                            <i className="fas fa-sync"></i>
-                                                                        </a>
-                                                                    </Link>
-                                                                </li>
+                                                       
                                                             </ul>
                                                         </div>
 
@@ -196,16 +190,10 @@ class Products extends Component {
                                                             <h3><a href="#">{data.title}</a></h3>
 
                                                             <div className="product-price">
-                                                                <span className="new-price">${data.price}</span>
+                                                                <span className="new-price">R$ {data.price}</span>
                                                             </div>
 
-                                                            <div className="rating">
-                                                                <i className="fas fa-star"></i>
-                                                                <i className="fas fa-star"></i>
-                                                                <i className="fas fa-star"></i>
-                                                                <i className="fas fa-star"></i>
-                                                                <i className="far fa-star"></i>
-                                                            </div>
+                                                 
 
                                                             <Link href="#">
                                                                 <a 
@@ -214,7 +202,7 @@ class Products extends Component {
                                                                         e.preventDefault(); this.handleAddToCart(data.id)
                                                                     }}
                                                                 >
-                                                                    Add to Cart
+                                                                    Add carrinho
                                                                 </a>
                                                             </Link>
                                                         </div>
@@ -264,13 +252,7 @@ class Products extends Component {
                                                                         </a>
                                                                     </Link>
                                                                 </li>
-                                                                <li>
-                                                                    <Link href="#">
-                                                                        <a data-tip="Add to Compare" data-place="left">
-                                                                            <i className="fas fa-sync"></i>
-                                                                        </a>
-                                                                    </Link>
-                                                                </li>
+                                                        
                                                             </ul>
                                                         </div>
 
@@ -278,16 +260,10 @@ class Products extends Component {
                                                             <h3><a href="#">{data.title}</a></h3>
 
                                                             <div className="product-price">
-                                                                <span className="new-price">${data.price}</span>
+                                                                <span className="new-price">R$ {data.price}</span>
                                                             </div>
 
-                                                            <div className="rating">
-                                                                <i className="fas fa-star"></i>
-                                                                <i className="fas fa-star"></i>
-                                                                <i className="fas fa-star"></i>
-                                                                <i className="fas fa-star"></i>
-                                                                <i className="far fa-star"></i>
-                                                            </div>
+                                                   
 
                                                             <Link href="#">
                                                                 <a 
@@ -296,7 +272,7 @@ class Products extends Component {
                                                                         e.preventDefault(); this.handleAddToCart(data.id)
                                                                     }}
                                                                 >
-                                                                    Add to Cart
+                                                                    Add carrinho
                                                                 </a>
                                                             </Link>
                                                         </div>
@@ -347,13 +323,7 @@ class Products extends Component {
                                                                         </a>
                                                                     </Link>
                                                                 </li>
-                                                                <li>
-                                                                    <Link href="#">
-                                                                        <a data-tip="Add to Compare" data-place="left">
-                                                                            <i className="fas fa-sync"></i>
-                                                                        </a>
-                                                                    </Link>
-                                                                </li>
+                                                        
                                                             </ul>
                                                         </div>
 
@@ -361,16 +331,10 @@ class Products extends Component {
                                                             <h3><a href="#">{data.title}</a></h3>
 
                                                             <div className="product-price">
-                                                                <span className="new-price">${data.price}</span>
+                                                                <span className="new-price">R$ {data.price}</span>
                                                             </div>
 
-                                                            <div className="rating">
-                                                                <i className="fas fa-star"></i>
-                                                                <i className="fas fa-star"></i>
-                                                                <i className="fas fa-star"></i>
-                                                                <i className="fas fa-star"></i>
-                                                                <i className="far fa-star"></i>
-                                                            </div>
+                                                   
 
                                                             <Link href="#">
                                                                 <a 
@@ -379,7 +343,7 @@ class Products extends Component {
                                                                         e.preventDefault(); this.handleAddToCart(data.id)
                                                                     }}
                                                                 >
-                                                                    Add to Cart
+                                                                    Add carrinho
                                                                 </a>
                                                             </Link>
                                                         </div>

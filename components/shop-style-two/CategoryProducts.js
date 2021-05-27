@@ -12,9 +12,9 @@ class CategoryProducts extends Component {
                                 <img src={require("../../images/category-products-img1.jpg")} alt="image" />
 
                                 <div className="category-content">
-                                    <h3>Our Popular Products</h3>
+                                    <h3>Produtos populares</h3>
                                     <Link href="#">
-                                        <a className="btn btn-light">View More</a>
+                                        <a className="btn btn-light">Saiba mais</a>
                                     </Link>
                                 </div>
 

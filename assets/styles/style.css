@@ -208,13 +208,13 @@ img {
 }
 
 .btn-light {
-  background-color: transparent;
+  background-color: #FF0F64;
   color: #222222;
   border-color: #222222;
 }
 
 .btn-light.disabled, .btn-light:disabled {
-  background-color: transparent;
+  background-color: #FF0F64;
   color: #222222;
   border-color: #222222;
 }
