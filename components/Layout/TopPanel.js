@@ -40,15 +40,15 @@ class TopPanel extends Component {
                             {...options}
                         >
                             <div className="single-item-box">
-                                <p><strong>Enjoy an extra 20% off</strong> select sales styles <Link href="#"><a>Read More</a></Link></p>
+                                <p>Entrega rápida para todo Brasil</p>
                             </div>
 
                             <div className="single-item-box">
-                                <p><strong>Enjoy an extra 20% off</strong> select sales styles <Link href="#"><a>Read More</a></Link></p>
+                                <p>Diversos métodos de pagamento</p>
                             </div>
 
                             <div className="single-item-box">
-                                <p><strong>Enjoy an extra 20% off</strong> select sales styles <Link href="#"><a>Read More</a></Link></p>
+                                <p>Confiança e qualidade de produtos</p>
                             </div>
                         </OwlCarousel> : ''}
 
