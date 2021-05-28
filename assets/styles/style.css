@@ -209,8 +209,8 @@ img {
 
 .btn-light {
   background-color: #FF0F64;
-  color: #222222;
-  border-color: #222222;
+  color: #fff;
+  border-color: #fff;
 }
 
 .btn-light.disabled, .btn-light:disabled {
@@ -422,7 +422,7 @@ Top Header Area CSS
 }
 
 .top-header-nav li a {
-  color: #222222;
+  color: #fff;
   font-size: 13px;
   line-height: initial;
   position: relative;

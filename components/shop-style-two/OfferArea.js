@@ -43,7 +43,7 @@ class OfferArea extends Component {
             <section className="offer-area ptb-60">
                 <div className="container">
                     <div className="section-title">
-                        <h2><span className="dot"></span> Alow your style to match your ambition!</h2>
+                        <h2><span className="dot"></span> Descubra nossas categorias </h2>
                     </div>
 
                     <div className="row">
@@ -56,8 +56,8 @@ class OfferArea extends Component {
                                     <img src={require("../../images/offer-img1.jpg")} alt="image" />
 
                                     <div className="offer-content">
-                                        <h3>T-Shirts</h3>
-                                        <span>65 Products</span>
+                                        <h3>Artesanatos</h3>
+                                        <span>65 Produtos</span>
                                     </div>
 
                                     <Link href="#">
@@ -71,8 +71,8 @@ class OfferArea extends Component {
                                     <img src={require("../../images/offer-img2.jpg")} alt="image" />
 
                                     <div className="offer-content">
-                                        <h3>Accessories</h3>
-                                        <span>155 Products</span>
+                                        <h3>Fitas</h3>
+                                        <span>155 Produtos</span>
                                     </div>
 
                                     <Link href="#">
@@ -86,8 +86,8 @@ class OfferArea extends Component {
                                     <img src={require("../../images/offer-img3.jpg")} alt="image" />
 
                                     <div className="offer-content">
-                                        <h3>Footwaer</h3>
-                                        <span>175 Products</span>
+                                        <h3>Acessorios</h3>
+                                        <span>175 Produtos</span>
                                     </div>
 
                                     <Link href="#">
@@ -101,8 +101,8 @@ class OfferArea extends Component {
                                     <img src={require("../../images/offer-img4.jpg")} alt="image" />
 
                                     <div className="offer-content">
-                                        <h3>Shirts</h3>
-                                        <span>548 Products</span>
+                                        <h3>Agulhas</h3>
+                                        <span>548 Produtos</span>
                                     </div>
 
                                     <Link href="#">
@@ -116,8 +116,8 @@ class OfferArea extends Component {
                                     <img src={require("../../images/offer-img3.jpg")} alt="image" />
 
                                     <div className="offer-content">
-                                        <h3>Footwaer</h3>
-                                        <span>175 Products</span>
+                                        <h3>Contas</h3>
+                                        <span>175 Produtos</span>
                                     </div>
 
                                     <Link href="#">

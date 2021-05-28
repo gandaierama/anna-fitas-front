@@ -96,83 +96,37 @@ class MegaMenu extends Component {
                                                 <div className="container">
                                                     <div className="row">
                                                         <div className="col">
-                                                            
+                                                            <a href="">Categoria 1</a>
                                                         </div>
-
-                                                        
-
-                                                        
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li className="nav-item megamenu">
-                                        <Link href="#">
-                                            <a className="nav-link">
-                                                Categorias <i className="fas fa-chevron-down"></i>
-                                            </a>
-                                        </Link>
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <div className="container">
-                                                    <div className="row">
                                                         <div className="col">
-                                                            <h6 className="submenu-title">Categorias</h6>
-
-                                                            <ul className="megamenu-submenu">
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar-fullwidth">
-                                                                        <a>Coats</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>Jackets</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar">
-                                                                        <a>Blazers</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar-with-block">
-                                                                        <a>Dresses</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar">
-                                                                        <a>Trousers</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar-with-block">
-                                                                        <a>Jeans</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar">
-                                                                        <a>Sweatshirts</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>T-Shirts</a>
-                                                                    </Link>
-                                                                </li>
-                                                            </ul>
+                                                            <a href="">Categoria 1</a>
+                                                        </div>
+                                                        <div className="col">
+                                                            <a href="">Categoria 1</a>
+                                                        </div>
+                                                        <div className="col">
+                                                            <a href="">Categoria 1</a>
+                                                        </div>
+                                                        <div className="col">
+                                                            <a href="">Categoria 1</a>
+                                                        </div>
+                                                        <div className="col">
+                                                            <a href="">Categoria 1</a>
+                                                        </div>
+                                                        <div className="col">
+                                                            <a href="">Categoria 1</a>
+                                                        </div>
+                                                        <div className="col">
+                                                            <a href="">Categoria 1</a>
+                                                        </div>
+                                                        <div className="col">
+                                                            <a href="">Categoria 1</a>
+                                                        </div>
+                                                        <div className="col">
+                                                            <a href="">Categoria 1</a>
                                                         </div>
 
-                                                        
+
 
                                                         
 
@@ -183,11 +137,7 @@ class MegaMenu extends Component {
                                         </ul>
                                     </li>
 
-                                
-
-                               
-                              
-                                 
+                                    
 
                                     
                                 </ul>
