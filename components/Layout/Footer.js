@@ -17,7 +17,7 @@ class Footer extends Component {
                                     </Link>
                                 </div>
 
-                                <p>A Anna Fitas Loja online de Materiais para artesanatos foi fundada em 2017, na cidade de São Paulo, bairro de Itaquera, sua principal missão é levar o que há de melhor em moda artesanal a preços justos. Atualmente contamos com 4 funcionários e nossos principais clientes são as (os) artesãs de todo Brasil fazendo belíssimas artes e sempre inovando o mercado da moda. Desde 2017 passamos a vender Materiais online.</p>
+                                <p>A Anna Fitas Loja online de Materiais para artesanatos foi fundada em 2017, na cidade de São Paulo, bairro de Itaquera, sua principal missão é levar o que há de melhor em moda artesanal a preços justos. </p>
                             </div>
                         </div>
 
@@ -38,7 +38,7 @@ class Footer extends Component {
                                 <h3>Informações</h3>
 
                                 <ul className="information-links">
-                                    <li><a href="#">Sobre n[os</a></li>
+                                    <li><a href="#">Sobre nós</a></li>
                                     <li><a href="#">Contato</a></li>
                            
                                 </ul>
